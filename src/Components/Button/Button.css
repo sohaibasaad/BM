@@ -1,16 +1,17 @@
 :root {
     --primaryButtonColor: #3B6F4F;
     --secondaryButtonColor: #FFCE59;
+    --rippleColor: #ffffff51;
 }
 
 .primaryButton {
     background: var(--primaryButtonColor);
-    color: #FFFFFF;
+    color: var(--whiteColor);
 }
 
 .secondaryButton {
     background: var(--secondaryButtonColor);
-    color: #000000;
+    color: var(--blackColor);
 }
 
 button {
@@ -24,7 +25,7 @@ button span {
     transform: translate(-50%, -50%) scale(0);
     position: absolute;
     pointer-events: none;
-    background: #ffffff51;
+    background: var(--rippleColor);
     width: 300px;
     height: 300px;
     border-radius: 50%;

@@ -5,15 +5,15 @@
     font-size: 50px;
     font-weight: 600;
     line-height: 1.2;
-    color: #0A0A0A;
+    color: var(--blackColor);
 }
 
 .banner-content-main-wrap h1 span {
-    color: #3B6F4F;
+    color: var(--primaryColor);
 }
 
 .banner-content-main-wrap p {
-    color: #606060;
+    color: var(--textColor);
     font-size: 16px;
     padding: 20px 0;
 }

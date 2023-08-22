@@ -1,3 +1,10 @@
+:root{
+  --primaryColor: #3B6F4F;
+  --bgSections: #F3F6FA;
+  --textColor:#606060;
+  --whiteColor:#FFFFFF;
+  --blackColor:#0A0A0A;
+}
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
