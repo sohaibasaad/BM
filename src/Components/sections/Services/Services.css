@@ -1,0 +1,24 @@
+.services-sec {
+    background: #F3F6FA;
+    padding: 100px 0;
+}
+
+ul.client-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.services-head{
+    padding: 50px 0 20px;
+}
+
+.services-head h2{
+    color: #0A0A0A;
+    font-size: 40px;
+    font-weight: bold;
+}
+.services-head p{
+    color: #606060;
+    padding: 10px 0;
+}

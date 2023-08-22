@@ -1,0 +1,37 @@
+.bannerMain{
+    padding: 120px 0 70px;
+}
+.banner-content-main-wrap h1 {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #0A0A0A;
+}
+
+.banner-content-main-wrap h1 span {
+    color: #3B6F4F;
+}
+
+.banner-content-main-wrap p {
+    color: #606060;
+    font-size: 16px;
+    padding: 20px 0;
+}
+
+.banner-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.banner-image-main-wrap{
+    position: relative;
+}
+
+.banner-image-main-wrap .banner-arrow{
+    position: absolute;
+    left: -100px;
+    top: 0;
+    bottom: 0;
+    height: max-content;
+    margin: auto;
+}
