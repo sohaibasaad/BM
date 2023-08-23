@@ -4,6 +4,7 @@ import Client2 from "../../assets/images/client2.png";
 import Client3 from "../../assets/images/client3.png";
 import Client4 from "../../assets/images/client4.png";
 import Client5 from "../../assets/images/client5.png";
+import Cards from '../Cards/Cards';
 
 function Services() {
     return (
@@ -26,6 +27,7 @@ function Services() {
                         </p>
                     </div>
                 </div>
+                <Cards />
             </div>
         </div>
     )
