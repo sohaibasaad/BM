@@ -6,13 +6,13 @@ import HeaderLogo from "../assets/images/logo.png"
 function Header() {
   return (
     <header className="container">
-      <nav class="navbar navbar-expand-lg">
+      <nav className="navbar navbar-expand-lg">
 
-        <a class="navbar-brand" href="#">
+        <a className="navbar-brand" href="#">
           <img src={HeaderLogo} alt="Bytes Master" />
         </a>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -20,32 +20,29 @@ function Header() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto align-items-center">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav ms-auto align-items-center">
+            <li className="nav-item">
+              <a className="nav-link active" aria-current="page" href="#">
                 Home
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+            <li className="nav-item">
+              <a className="nav-link" href="#">
                 About Us
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+            <li className="nav-item">
+              <a className="nav-link" href="#">
                 Services
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+            <li className="nav-item">
+              <a className="nav-link" href="#">
                 Contact Us
               </a>
-            </li>
-            <li class="nav-item">
-              <Button primary>More Info</Button>
             </li>
           </ul>
         </div>

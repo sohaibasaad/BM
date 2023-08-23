@@ -14,20 +14,20 @@
     color: var(--blackColor);
 }
 
-button {
+button.rippleButton{
     position: relative;
     overflow: hidden;
 }
 
-button span {
+button.rippleButton span {
     -webkit-animation: rEffectAnimation 0.85s linear infinite;
     animation: rEffectAnimation 0.85s linear infinite;
     transform: translate(-50%, -50%) scale(0);
     position: absolute;
     pointer-events: none;
     background: var(--rippleColor);
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
     border-radius: 50%;
 }
 

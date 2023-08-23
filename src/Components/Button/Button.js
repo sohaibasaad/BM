@@ -9,7 +9,7 @@ const ButtonRipple = {
   },
 
   rippleEffectMovement: () => {
-    const buttonsNodeList = document.querySelectorAll("button");
+    const buttonsNodeList = document.querySelectorAll(".rippleButton");
     buttonsNodeList.forEach((btn) => {
       btn.addEventListener("mouseenter", function (e) {
         const target = e.target;
@@ -34,17 +34,16 @@ function Button({ children, secondary, primary, ...rest }) {
   useEffect(() => {
     ButtonRipple.init();
   }, [])
-  
+
   const classes = classNames(
+    'rippleButton',
     {
       "primaryButton": primary,
       "secondaryButton": secondary
-    },rest.className
+    }, rest.className
   )
   return (
-    <div className="ripple-btn-wrapper ">
-      <button {...rest} className={classes}>{children}</button>
-    </div>
+    <button {...rest} className={classes}>{children}</button>
   )
 }
 
