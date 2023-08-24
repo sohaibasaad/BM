@@ -1,4 +1,5 @@
 import './Card.css';
+import { Link } from "react-router-dom";
 import ServiceArrow from "../assets/images/service-arrow.png";
 import Service1 from "../assets/images/service1.png";
 import Service2 from "../assets/images/service2.png";
@@ -52,7 +53,7 @@ function Card() {
             </div>
             <div className="cardCnt">
                 <p>{element.para}</p>
-                <a><img src={ServiceArrow} alt="Arrow Icon" /></a>
+                <Link to={'/home'}><img src={ServiceArrow} alt="Arrow Icon" /></Link>
             </div>
         </div>
       );

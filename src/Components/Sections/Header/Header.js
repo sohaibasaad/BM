@@ -1,4 +1,5 @@
 import './Header.css'
+import { Link } from "react-router-dom";
 import HeaderLogo from "../../assets/images/logo.png"
 
 function Header() {
@@ -6,9 +7,9 @@ function Header() {
     <header className="container">
       <nav className="navbar navbar-expand-lg">
 
-        <a className="navbar-brand">
+        <Link className="navbar-brand" to={'/home'}>
           <img src={HeaderLogo} alt="Bytes Master" />
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -23,24 +24,24 @@ function Header() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto align-items-center">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page">
+              <Link to={'/home'} className="nav-link active" aria-current="page">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link">
+              <Link to={'/home'} className="nav-link">
                 About Us
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link">
+            <Link to={'/home'} className="nav-link">
                 Services
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link">
+            <Link to={'/home'} className="nav-link">
                 Contact Us
-              </a>
+              </Link>
           </li>
           </ul>
         </div>

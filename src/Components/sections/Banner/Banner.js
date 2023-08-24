@@ -28,7 +28,7 @@ function Banner() {
                     </div>
                     <div className="col-lg-6 text-end px-0">
                         <div className="banner-image-main-wrap">
-                            <img className='img-fluid' src={BannerImage} alt="Banner Image" />
+                            <img className='img-fluid' src={BannerImage} alt="Banner" />
                             <img className='banner-arrow' src={BannerArrow} alt="Banner Arrow" />
                         </div>
                     </div>
