@@ -1,29 +1,74 @@
-:root{
+:root {
+  /* Main Colors */
   --primaryColor: #3B6F4F;
+  --secondaryColor: #FFCE59;
+
+
+  /* Background Colors */
   --bgSections: #F3F6FA;
-  --textColor:#606060;
-  --whiteColor:#FFFFFF;
-  --blackColor:#0A0A0A;
+
+  --rippleColor: #ffffff51;
+
+  /* Text Colors */
+  --mainHeading: #0A0A0A;
+  --subHeading: #2F2F2F;
+  --paraColor: #606060;
+  --whiteColor: #FFFFFF;
+
+  /* Font Sizes */
+  --textBannerFontSize: 50px;
+  --textMainHeadingFontSize: 40px;
+  --textParaFontSize: 16px;
+  --textCardheading: 18px;
+  
 }
+
 body {
+  font-family: 'Samsung Sharp Sans';
   margin: 0;
-  font-family: 'Poppins', sans-serif;
   padding: 0;
 }
-ul{
+
+ul {
   padding: 0;
   margin: 0;
   list-style: none;
 }
-h1,h2,h3,h4,h5,h6,p,label,span{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+label,
+span,
+.row {
   margin: 0;
 }
-button.rippleButton{
+
+button.rippleButton {
   border-radius: 52px;
-  font-size: 17px;
+  font-size: var(--textParaFontSize);
   font-weight: 500;
   padding: 15px 40px;
   border: none;
   outline: none;
   box-shadow: none;
+}
+
+@media (max-width: 1024px) {
+  :root {
+    /* Font Sizes */
+    --textBannerFontSize: 35px;
+    --textMainHeadingFontSize: 30px;
+    --textParaFontSize: 14px;
+    
+  }
+
+  button.rippleButton {
+    padding: 10px 15px;
+    font-size: var(--textParaFontSize);
+  }
 }

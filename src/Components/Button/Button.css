@@ -1,17 +1,11 @@
-:root {
-    --primaryButtonColor: #3B6F4F;
-    --secondaryButtonColor: #FFCE59;
-    --rippleColor: #ffffff51;
-}
-
 .primaryButton {
-    background: var(--primaryButtonColor);
+    background: var(--primaryColor);
     color: var(--whiteColor);
 }
 
 .secondaryButton {
-    background: var(--secondaryButtonColor);
-    color: var(--blackColor);
+    background: var(--secondaryColor);
+    color: var(--mainHeading);
 }
 
 button.rippleButton{

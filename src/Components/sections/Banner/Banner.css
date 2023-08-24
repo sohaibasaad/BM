@@ -1,11 +1,22 @@
-.bannerMain{
+.bannerMain {
     padding: 120px 0 70px;
 }
+
 .banner-content-main-wrap h1 {
-    font-size: 50px;
+    font-size: var(--textBannerFontSize);
     font-weight: 600;
     line-height: 1.2;
-    color: var(--blackColor);
+    color: var(--mainHeading);
+    position: relative;
+}
+
+.banner-content-main-wrap h1:before {
+    position: absolute;
+    content: 'Software';
+    left: -50px;
+    top: -28px;
+    -webkit-text-stroke: 1px rgb(10 10 10 / 15%);
+    -webkit-text-fill-color: #ffffff00;
 }
 
 .banner-content-main-wrap h1 span {
@@ -13,8 +24,8 @@
 }
 
 .banner-content-main-wrap p {
-    color: var(--textColor);
-    font-size: 16px;
+    color: var(--paraColor);
+    font-size: var(--textParaFont);
     padding: 20px 0;
 }
 
@@ -23,15 +34,40 @@
     align-items: center;
 }
 
-.banner-image-main-wrap{
+.banner-image-main-wrap {
     position: relative;
 }
 
-.banner-image-main-wrap .banner-arrow{
+.banner-image-main-wrap .banner-arrow {
     position: absolute;
     left: -100px;
     top: 0;
     bottom: 0;
     height: max-content;
     margin: auto;
+}
+
+@media (max-width: 1024px) {
+    .bannerMain {
+        padding-top: 160px;
+    }
+
+    .banner-content-main-wrap h1:before {
+        left: -18px;
+        top: -20px;
+    }
+    .banner-content-main-wrap h1 {
+        font-size: var(--textBannerFontSize);
+    }
+
+    .banner-image-main-wrap .banner-arrow {
+        left: -10px;
+        top: 0;
+        bottom: inherit;
+        transform: rotate(-100deg);
+    }
+
+    .banner-content-main-wrap p {
+        font-size: var(--textParaFont);
+    }
 }
