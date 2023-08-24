@@ -1,13 +1,9 @@
-import Banner from "./Components/sections/Banner/Banner";
-import Header from "./Components/Header/Header";
-import Services from "./Components/sections/Services/Services";
+import Home from "./Pages/Home";
 
 function App() {
   return (
     <div>
-      <Header />
-      <Banner />
-      <Services />
+      <Home />
     </div>
   );
 }

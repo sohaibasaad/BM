@@ -1,14 +1,12 @@
-import { useState } from 'react';
-import Button from '../Button/Button';
 import './Header.css'
-import HeaderLogo from "../assets/images/logo.png"
+import HeaderLogo from "../../assets/images/logo.png"
 
 function Header() {
   return (
     <header className="container">
       <nav className="navbar navbar-expand-lg">
 
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand">
           <img src={HeaderLogo} alt="Bytes Master" />
         </a>
         <button
@@ -25,25 +23,25 @@ function Header() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto align-items-center">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <a className="nav-link active" aria-current="page">
                 Home
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link">
                 About Us
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link">
                 Services
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link">
                 Contact Us
               </a>
-            </li>
+          </li>
           </ul>
         </div>
 
