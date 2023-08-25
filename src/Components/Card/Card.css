@@ -29,6 +29,7 @@
 .cardCnt p {
     color: var(--paraColor);
     font-size: var(--textParaFontSize);
+    font-weight: 500;
 }
 .cardMain:hover .cardCnt p{
     color: var(--whiteColor);

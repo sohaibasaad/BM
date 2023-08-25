@@ -23,6 +23,7 @@ ul.client-list {
 .services-head p {
     color: var(--paraColor);
     padding: 10px 0;
+    font-weight: 500;
 }
 
 @media (max-width: 1024px) {

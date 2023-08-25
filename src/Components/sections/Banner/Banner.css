@@ -27,6 +27,7 @@
     color: var(--paraColor);
     font-size: var(--textParaFont);
     padding: 20px 0;
+    font-weight: 500;
 }
 
 .banner-buttons {

@@ -44,7 +44,6 @@ function Services() {
   return (
     <div className="services-sec">
       <div className="container">
-        
         <div className="client-wrap">
           <div className="client-list">
           <Slider {...clientsSlider}>
