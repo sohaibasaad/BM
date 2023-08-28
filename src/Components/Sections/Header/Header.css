@@ -1,5 +1,6 @@
 .navbar-nav li a {
     padding: 0;
+    font-weight: 500;
 }
 
 .navbar-nav li:not(:last-child) {

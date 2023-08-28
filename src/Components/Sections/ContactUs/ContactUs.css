@@ -1,0 +1,94 @@
+.contact-us-section{
+    padding: 90px 0;
+}
+.conact_content h2{
+    color: var(--mainHeading);
+    font-size: var(--textMainHeadingFontSize);
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.conact_content p{
+    color: var(--paraColor);
+    font-size: var(--textParaFontSize);
+    font-weight: 500;
+}
+.home-form {
+    position: relative;
+    box-shadow: 0px 4px 60px rgb(0 0 0 / 5%);
+    background-color: #fff;
+    padding: 50px 25px;
+    border-radius: 30px;
+}
+.custom_input_field{
+    position: relative;
+    margin-bottom: 20px;
+}
+.custom_input_field svg{
+    position: absolute;
+    left: 20px;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.custom_input_field input, .custom_input_field textarea{
+    background-color: var(--inputBg);
+    border: 1px solid var(--inputBorder);
+    border-radius: 70px;
+    padding: 15px 25px 15px 50px;
+}
+.custom_input_field.custom_input_field_textarea svg{
+    bottom: unset;
+    height: fit-content;
+    top: 18px;
+}
+.custom_input_field textarea{
+    height: 170px;
+    border-radius: 30px;
+    resize: none;
+}
+.contact-bg-image{
+    position: absolute;
+    left: -120px;
+    right: 0px;
+    width: 150%;
+    bottom: -90px;
+}
+.conact_content{
+    position: relative;
+}
+.conact_content img{
+    position: absolute;
+    left: -70px;
+    right: 0;
+    bottom: -150px;
+    width: 30%;
+    margin: 0 auto;
+}
+@media (max-width: 1024px) {
+    .contact-us-section{
+        padding: 70px 0;
+    }
+    .conact_content{
+        text-align: center;
+    }
+    .conact_content h2{
+        font-size: var(--textMainHeadingFontSize);
+    }
+    .conact_content p{
+        font-size: var(--textParaFontSize);
+    }
+    .conact_content img{
+        display: none;
+    }
+    .contact-bg-image{
+        display: none;
+    }
+    .rearrange-order-1{
+        order: 1;
+    }
+    .rearrange-order-2{
+        order: 2;
+    }
+}

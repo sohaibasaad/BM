@@ -7,17 +7,23 @@
   /* Background Colors */
   --bgSections: #F3F6FA;
 
+  --inputBorder: #e9e9e9;
+  --inputBg: #fafafa;
   --rippleColor: #ffffff51;
+
+  --footerBg: #F3F6FA;
 
   /* Text Colors */
   --mainHeading: #0A0A0A;
   --subHeading: #2F2F2F;
   --paraColor: #606060;
   --whiteColor: #FFFFFF;
+  --placeHolder: #969696;
 
   /* Font Sizes */
   --textBannerFontSize: 50px;
   --textMainHeadingFontSize: 40px;
+  --textMainHeadingFooterFontSize: 25px;
   --textParaFontSize: 16px;
   --textCardheading: 18px;
   
@@ -58,12 +64,28 @@ button.rippleButton {
   box-shadow: none;
 }
 
+::-webkit-input-placeholder { /* Edge */
+  color: var(--placeHolder);
+  font-weight: 500;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: var(--placeHolder);
+  font-weight: 500;
+}
+
+::placeholder {
+  color: var(--placeHolder);
+  font-weight: 500;
+}
+
 @media (max-width: 1024px) {
   :root {
     /* Font Sizes */
     --textBannerFontSize: 35px;
     --textMainHeadingFontSize: 30px;
     --textParaFontSize: 14px;
+    --textMainHeadingFooterFontSize: 20px;
     
   }
 
