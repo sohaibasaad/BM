@@ -5,7 +5,7 @@ import Button from '../../Button/Button'
 
 function ContactUsForm() {
     return (
-        <div className='container contact-us-section'>
+        <div className='container contact-us-page-section'>
             <div className='row align-items-center'>
                 <div className='col-12 col-lg-6'>
                     <div className='contact_image position-relative'>
@@ -14,7 +14,7 @@ function ContactUsForm() {
                         <p className='mt-4'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution.</p>
                     </div>
                 </div>
-                <div className='col-12 col-lg-6'>
+                <div className='col-12 col-lg-6 mt-lg-0 mt-5'>
                     <div className='home-form contact-form'>
                         <form className='contact-us'>
                             <div className='custom_input_field'>

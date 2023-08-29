@@ -54,7 +54,9 @@ span,
   margin: 0;
 }
 
-
+:focus{
+  box-shadow: none !important;
+}
 
 ::-webkit-input-placeholder {
   /* Edge */

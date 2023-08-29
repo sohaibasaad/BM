@@ -22,6 +22,10 @@
     border: none;
     border-bottom: 1.5px solid var(--inputBorder);
     border-radius: 0;
+    padding: 15px 25px 15px 35px;
+}
+.contact-form .custom_input_field textarea{
+    padding-top: 5px;
 }
 .contact-button button{
     display: block;
@@ -30,4 +34,22 @@
 }
 .home-form.contact-form .contact-button button{
     width: max-content;
+}
+.contact-us-page-section{
+    padding: 90px 0 0;
+}
+@media (max-width: 1024px) {
+    .contact-form .custom_input_field{
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .contact-form .custom_input_field input, .contact-form .custom_input_field textarea {
+        padding-left: 50px !important;
+    }
+    .contact-us-page-section{
+        padding: 70px 0 0;
+    }
+    .contactArrow{
+        display: none;
+    }
 }
