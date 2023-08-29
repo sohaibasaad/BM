@@ -57,18 +57,11 @@
         left: -18px;
         top: -20px;
     }
-    .banner-content-main-wrap h1 {
-        font-size: var(--textBannerFontSize);
-    }
 
     .banner-image-main-wrap .banner-arrow {
         left: -10px;
         top: 0;
         bottom: inherit;
         transform: rotate(-100deg);
-    }
-
-    .banner-content-main-wrap p {
-        font-size: var(--textParaFont);
     }
 }

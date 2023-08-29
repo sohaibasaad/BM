@@ -92,12 +92,6 @@
         font-size: var(--textMainHeadingFooterFontSize);
         margin-bottom: 15px;
     }
-    .footer_social_links ul li a{
-        font-size: var(--textParaFontSize);
-    }
-    .image-content p{
-        font-size: var(--textParaFontSize);
-    }
     .footer_social_links{
         margin-top: 20px;
     }

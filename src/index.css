@@ -26,7 +26,7 @@
   --textMainHeadingFooterFontSize: 25px;
   --textParaFontSize: 16px;
   --textCardheading: 18px;
-  
+
 }
 
 body {
@@ -54,6 +54,33 @@ span,
   margin: 0;
 }
 
+
+
+::-webkit-input-placeholder {
+  /* Edge */
+  color: var(--placeHolder);
+  font-weight: 500;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: var(--placeHolder);
+  font-weight: 500;
+}
+
+::placeholder {
+  color: var(--placeHolder);
+  font-weight: 500;
+}
+
+.header_dark_bg_false .navbar-nav li a {
+  color: var(--mainHeading) !important;
+}
+
+.header_dark_bg_true .navbar-nav li a {
+  color: var(--bgSections) !important;
+}
+
 button.rippleButton {
   border-radius: 52px;
   font-size: var(--textParaFontSize);
@@ -64,19 +91,18 @@ button.rippleButton {
   box-shadow: none;
 }
 
-::-webkit-input-placeholder { /* Edge */
-  color: var(--placeHolder);
-  font-weight: 500;
+.navbar-nav li a {
+  transition: 0.5s all ease;
 }
 
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: var(--placeHolder);
-  font-weight: 500;
+.header_dark_bg_false .navbar-nav li a.active,
+.header_dark_bg_false .navbar-nav li a:hover {
+  color: var(--primaryColor) !important;
 }
 
-::placeholder {
-  color: var(--placeHolder);
-  font-weight: 500;
+.header_dark_bg_true .navbar-nav li a.active,
+.header_dark_bg_true .navbar-nav li a:hover {
+  color: var(--secondaryColor) !important;
 }
 
 @media (max-width: 1024px) {
@@ -86,7 +112,7 @@ button.rippleButton {
     --textMainHeadingFontSize: 30px;
     --textParaFontSize: 14px;
     --textMainHeadingFooterFontSize: 20px;
-    
+
   }
 
   button.rippleButton {

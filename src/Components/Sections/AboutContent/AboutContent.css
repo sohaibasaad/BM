@@ -1,0 +1,76 @@
+.about-content{
+    padding: 0px 0 0px;
+}
+.about-content-bg{
+    padding: 90px 0;
+    background-color: var(--bgSections);
+}
+.about_content_heading{
+
+}
+.about_content_heading h2{
+    color: var(--mainHeading);
+    font-size: var(--textMainHeadingFontSize);
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.about_content_heading p{
+    color: var(--paraColor);
+    font-size: var(--textParaFontSize);
+    font-weight: 500;
+}
+.aboutArrow{
+    position: absolute;
+    left: -120px;
+    bottom: 10px;
+}
+.about-content-without-bg{
+    padding: 90px 0 0;
+}
+.achievement_counter{
+    margin-bottom: 25px;
+}
+.achievement_counter h2{
+    color: var(--mainHeading);
+    font-size: var(--textMainHeadingFontSize);
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+}
+.achievement_counter h2 span{
+    color: var(--primaryColor);
+}
+.achievement_counter p{
+    color: var(--paraColor);
+    font-size: var(--textParaFontSize);
+    font-weight: 500;
+}
+.aboutArrow2{
+    position: absolute;
+    right: -70px;
+    top: -50px;
+}
+@media (max-width: 1024px) {
+    .about-content{
+        padding: 0px 0;
+    }
+    .about-content-bg{
+        padding: 70px 0;
+    }
+    .aboutArrow, .aboutArrow2{
+        display: none;
+    }
+    .about_content_heading{
+        text-align: center;
+    }
+    .right_image_about{
+        display: none;
+    }
+    .about-content-without-bg{
+        padding: 70px 0 0;
+    }
+    .about-content-without-bg button{
+        display: block;
+        margin: 0 auto;
+    }
+}

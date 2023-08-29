@@ -27,12 +27,6 @@
     .security-section{
         padding: 70px 0;
     }
-    .security_content h2{
-        font-size: var(--textMainHeadingFontSize);
-    }
-    .security_content p{
-        font-size: var(--textParaFontSize);
-    }
     .security_content_main{
         margin-top: 45px;
         text-align: center;

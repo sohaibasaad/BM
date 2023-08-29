@@ -1,0 +1,33 @@
+.contactArrow{
+    position: absolute;
+    right: -70px;
+    top: 20px;
+    z-index: 1;
+}
+.contact_image p{
+    color: var(--paraColor);
+    padding: 10px 0;
+    font-weight: 500;
+}
+.contact-form .custom_input_field{
+    width: 50%;
+    display: inline-block;
+    padding: 10px 20px;
+}
+.contact-form .custom_input_field.custom_input_field_textarea{
+    width: 100%;
+}
+.contact-form .custom_input_field input, .contact-form .custom_input_field textarea{
+    background-color: var(--whiteColor);
+    border: none;
+    border-bottom: 1.5px solid var(--inputBorder);
+    border-radius: 0;
+}
+.contact-button button{
+    display: block;
+    margin: 0 auto;
+    text-transform: capitalize;
+}
+.home-form.contact-form .contact-button button{
+    width: max-content;
+}

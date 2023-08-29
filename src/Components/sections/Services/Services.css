@@ -33,10 +33,4 @@ ul.client-list {
     .slick-slide img{
         margin: 0 auto;
     }
-    .services-head h2 {
-        font-size: var(--textMainHeadingFontSize);
-    }
-    .services-head p {
-        font-size: var(--textParaFontSize);
-    }
 }

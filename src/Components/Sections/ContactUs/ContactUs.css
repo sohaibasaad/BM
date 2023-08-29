@@ -66,18 +66,15 @@
     width: 30%;
     margin: 0 auto;
 }
+.home-form .contact-button button{
+    width: 100%;
+}
 @media (max-width: 1024px) {
     .contact-us-section{
         padding: 70px 0;
     }
     .conact_content{
         text-align: center;
-    }
-    .conact_content h2{
-        font-size: var(--textMainHeadingFontSize);
-    }
-    .conact_content p{
-        font-size: var(--textParaFontSize);
     }
     .conact_content img{
         display: none;

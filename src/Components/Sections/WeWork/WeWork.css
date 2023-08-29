@@ -31,12 +31,6 @@
     .we-work-content{
         text-align: center;
     }
-    .we-work-content h2{
-        font-size: var(--textMainHeadingFontSize);
-    }
-    .we-work-content p{
-        font-size: var(--textParaFontSize);
-    }
     .we_work_arrow_image{
         display: none;
     }

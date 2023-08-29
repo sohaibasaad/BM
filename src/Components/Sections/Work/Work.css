@@ -27,12 +27,6 @@
     .work-section{
         padding: 70px 0;
     }
-    .work_content h2{
-        font-size: var(--textMainHeadingFontSize);
-    }
-    .work_content p{
-        font-size: var(--textParaFontSize);
-    }
     .work_content_main{
         margin-top: 45px;
         text-align: center;
