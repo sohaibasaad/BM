@@ -1,8 +1,8 @@
 import "./Banner.css";
 import { TypeAnimation } from 'react-type-animation';
-import BannerImage from "../../assets/images/banner-image.png";
-import BannerArrow from "../../assets/images/banner-arrow.png";
-import Button from "../../Button/Button";
+import BannerImage from "../../../assets/images/banner-image.png";
+import BannerArrow from "../../../assets/images/banner-arrow.png";
+import Button from "../../../Button/Button";
 
 function Banner() {
   return (

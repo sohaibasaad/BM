@@ -44,13 +44,14 @@ header {
         border: none;
     }
     .header_dark_bg_false #navbarSupportedContent{
-        background-color: var(--secondaryColor);
+        background-color: var(--whiteColor);
+        box-shadow: 10px 4px 6px var(--bgSections);
     }
     div#navbarSupportedContent {
         z-index: 1;
     }
     .header_dark_bg_true div#navbarSupportedContent {
-        background: var(--bgSections);;
+        background: var(--whiteColor);
         z-index: 1;
     }
 }

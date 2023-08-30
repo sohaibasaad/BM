@@ -1,11 +1,11 @@
 import Slider from "react-slick";
 import "./Services.css";
-import Client1 from "../../assets/images/client1.png";
-import Client2 from "../../assets/images/client2.png";
-import Client3 from "../../assets/images/client3.png";
-import Client4 from "../../assets/images/client4.png";
-import Client5 from "../../assets/images/client5.png";
-import Card from "../../Card/Card";
+import Client1 from "../../../assets/images/client1.png";
+import Client2 from "../../../assets/images/client2.png";
+import Client3 from "../../../assets/images/client3.png";
+import Client4 from "../../../assets/images/client4.png";
+import Client5 from "../../../assets/images/client5.png";
+import Card from "../../../Card/Card";
 
 function Services() {
   const clientsSlider = {

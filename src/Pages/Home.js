@@ -1,11 +1,10 @@
-import Header from "../Components/Sections/Header/Header";
-import Banner from "../Components/Sections/Banner/Banner";
-import Services from "../Components/Sections/Services/Services";
-import Work from "../Components/Sections/Work/Work";
-import WeWork from "../Components/Sections/WeWork/WeWork";
-import Security from "../Components/Sections/Security/Security";
-import Reviews from "../Components/Sections/Reviews/Reviews";
-import ContactUs from "../Components/Sections/ContactUs/ContactUs";
+import Banner from "../Components/Sections/Home/Banner/Banner";
+import Services from "../Components/Sections/Home/Services/Services";
+import Work from "../Components/Sections/Home/Work/Work";
+import WeWork from "../Components/Sections/Home/WeWork/WeWork";
+import Security from "../Components/Sections/Home/Security/Security";
+import Reviews from "../Components/Sections/Home/Reviews/Reviews";
+import ContactUs from "../Components/Sections/Home/ContactUs/ContactUs";
 
 function Home() {
   return (

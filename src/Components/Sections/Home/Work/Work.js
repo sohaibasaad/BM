@@ -1,7 +1,7 @@
-import workImage from '../../assets/images/work1.png'
+import workImage from '../../../assets/images/work1.png'
 import './Work.css'
-import Button from '../../Button/Button'
-import workArrow from '../../assets/images/work-arrow.png'
+import Button from '../../../Button/Button'
+import workArrow from '../../../assets/images/work-arrow.png'
 
 function Work() {
   return (

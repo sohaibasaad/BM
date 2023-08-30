@@ -1,12 +1,12 @@
 import './AboutContent.css'
-import aboutImageRight from '../../assets/images/about-image-right.png'
-import aboutImage from '../../assets/images/about-image.png'
-import aboutImage2 from '../../assets/images/about-image-2.png'
-import aboutImage3 from '../../assets/images/about-image-3.png'
-import aboutArrow from '../../assets/images/about-arrow.png'
-import aboutImageleft from '../../assets/images/about-image-left.png'
-import aboutArrow2 from '../../assets/images/about-arrow-2.png'
-import Button from '../../Button/Button'
+import aboutImageRight from '../../../assets/images/about-image-right.png'
+import aboutImage from '../../../assets/images/about-image.png'
+import aboutImage2 from '../../../assets/images/about-image-2.png'
+import aboutImage3 from '../../../assets/images/about-image-3.png'
+import aboutArrow from '../../../assets/images/about-arrow.png'
+import aboutImageleft from '../../../assets/images/about-image-left.png'
+import aboutArrow2 from '../../../assets/images/about-arrow-2.png'
+import Button from '../../../Button/Button'
 
 function AboutContent() {
     return (

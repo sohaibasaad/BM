@@ -1,6 +1,6 @@
 import './WeWork.css'
-import weWork from '../../assets/images/we-work.png'
-import weWorkArrow from '../../assets/images/we-work-arrow.png'
+import weWork from '../../../assets/images/we-work.png'
+import weWorkArrow from '../../../assets/images/we-work-arrow.png'
 
 function WeWork() {
     return (

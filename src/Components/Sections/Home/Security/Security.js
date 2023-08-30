@@ -1,7 +1,7 @@
-import securityImage from '../../assets/images/security.png'
+import securityImage from '../../../assets/images/security.png'
 import './Security.css'
-import Button from '../../Button/Button'
-import securityArrow from '../../assets/images/security-arrow.png'
+import Button from '../../../Button/Button'
+import securityArrow from '../../../assets/images/security-arrow.png'
 
 function Security() {
     return (

@@ -1,0 +1,43 @@
+.service-page-section{
+    padding: 90px 0;
+}
+.services_content h2{
+    color: var(--mainHeading);
+    font-size: var(--textMainHeadingFontSize);
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.services_content p{
+    color: var(--paraColor);
+    padding: 10px 0;
+    font-weight: 500;
+}
+.services_content ul{
+
+}
+.services_content ul li{
+    display: flex;
+    align-items: center;
+}
+.services_content ul li p{
+    margin-left: 10px;
+}
+.serviceArrow{
+    position: absolute;
+    right: 0;
+    bottom: -50px;
+}
+@media (max-width: 1024px) {
+    .service-page-section{
+        padding: 70px 0;
+    }
+    .serviceArrow{
+        display: none;
+    }
+    .services_content{
+        text-align: center;
+    }
+    .services_content ul li p{
+        text-align: left;
+    }
+}

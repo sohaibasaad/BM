@@ -1,0 +1,23 @@
+.services-page-section3{
+    padding: 90px 0;
+    text-align: center;
+}
+.services-page-section3 h2{
+    color: var(--mainHeading);
+    font-size: var(--textMainHeadingFontSize);
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+.services-page-section3 p{
+    color: var(--paraColor);
+    font-size: var(--textParaFontSize);
+    font-weight: 500;
+    margin: 10px 0;
+}
+@media (max-width: 1024px) {
+    .services-page-section3{
+        padding: 90px 0 0;
+        text-align: center;
+    }
+}
