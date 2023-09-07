@@ -17,8 +17,8 @@ function AboutContent() {
                         <div className='col-12 col-lg-6 px-lg-3'>
                             <div className='about_content_heading'>
                                 <h2 className='mb-4'>We are small but nice group of people passionate about creating great products.</h2>
-                                <p className='mb-4 pe-lg-5'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution letters, as opposed to using 'Content here, content here' making it look like. </p>
-                                <p className='mb-4 pe-lg-5'>Readable English by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <p className='mb-4 pe-lg-5'>Bytes master is a company comprised of experienced teams in every aspect of Digital Services. We started a year ago as a team of a few individuals with the passion to learn how to provide our clients unmeasurable growth through the Digital World. Our extensive research and our practical learning helped us to understand the small and fragile steps needed to turn every project into a success.</p>
+                                <p className='mb-4 pe-lg-5'>In the past year, We have grown our company and reputation from a few individuals to the same individuals leading their own respective departments. Every department has team members from experienced team leads to fresh apprentices. We have always focused on increasing our own knowledge and skills while sharing all that experience with the juniors.</p>
                             </div>
                         </div>
                         <div className='col-12 col-lg-6 position-relative right_image_about'>
@@ -49,38 +49,34 @@ function AboutContent() {
                         <div className='col-12 col-lg-6'>
                             <div className='about_content_heading'>
                                 <h2 className='mb-4 mt-4 mt-lg-0'>Our Achievements</h2>
-                                <p className='mb-4 pe-lg-5'>It is a long established fact that a reader will be distrac by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution.</p>
+                                <p className='mb-4 pe-lg-5'>Our packages are amazingly cost-effective and are being offered to suit any business size. We are your solution provider not a pocket breaker. Our tally of projects so far:</p>
                                 <div className='row'>
                                     <div className='col-12 col-lg-4'>
                                         <div className='achievement_counter'>
-                                            <h2>98<span>%</span></h2>
-                                            <p>Private Office</p>
+                                            <h2>67<span>+</span></h2>
+                                            <p>Websites</p>
                                         </div>
                                     </div>
                                     <div className='col-12 col-lg-4'>
                                         <div className='achievement_counter'>
-                                            <h2>20M<span>+</span></h2>
-                                            <p>Coworking Desks</p>
+                                            <h2>1K<span>+</span></h2>
+                                            <p>Logos</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div className='row'>
                                     <div className='col-12 col-lg-4'>
                                         <div className='achievement_counter'>
-                                            <h2>100K<span>+</span></h2>
-                                            <p>Meeting Rooms</p>
+                                            <h2>32<span>+</span></h2>
+                                            <p>Mobile Apps</p>
                                         </div>
                                     </div>
                                     <div className='col-12 col-lg-4'>
                                         <div className='achievement_counter'>
-                                            <h2>55<span>%</span></h2>
-                                            <p>Meeting Rooms</p>
+                                            <h2>50<span>+</span></h2>
+                                            <p>Portals</p>
                                         </div>
                                     </div>
-                                </div>
-
-                                <div className='col-12 col-lg-6'>
-
                                 </div>
                             </div>
                             <Button secondary>Get Started</Button>

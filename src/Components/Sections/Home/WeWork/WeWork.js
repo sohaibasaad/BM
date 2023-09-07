@@ -7,11 +7,8 @@ function WeWork() {
         <div className='we-work-section'>
             <div className='container'>
                 <div className='we-work-content'>
-                    <h2>Watch this video to see how we work</h2>
-                    <p className='mt-3'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution.
-                    </p>
-                    <p className='mt-3 mb-4'>Letters, as opposed to using 'Content here, content here', making it look like readable English by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution. The point of using
-                        Lorem Ipsum is that it has a more-or-less normal distribution.</p>
+                    <h2>Our Process</h2>
+                    <p className='mt-3 mb-4'>At Bytes Master, our holistic approach begins with a thorough understanding of your goals. We craft bespoke websites, captivating logos, and intuitive UI/UX designs that resonate with your brand. Our SEO experts ensure maximum online visibility, while our social media gurus amplify your presence. Our process is a fusion of creativity and data-driven strategies, driving your success from concept to execution.</p>
                     
                     <div className='we_work_image'>
                         <img src={weWork} className='img-fluid' alt='how we work' />

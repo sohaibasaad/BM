@@ -13,14 +13,16 @@ function Banner() {
           <div className="banner-content-main-wrap">
             <div className="banner-content-inner px-5 ps-0">
               <h1>
-                Leads that clients can see and
+                Expand Your Business With An Impressive Website 
                 <TypeAnimation
                   sequence={[
                     // Same substring at the start will only be typed out once, initially
-                    " hear",
+                    " Design",
                     1000, // wait 1s before replacing "Mice" with "Hamsters"
-                    " there",
-                    1000
+                    " Development",
+                    1000,
+                    " Optimization",
+                    1000,
                   ]}
                   wrapper="span"
                   speed={35}
@@ -30,8 +32,8 @@ function Banner() {
                 {/* <span>hear</span> */}
               </h1>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                do eiusmod tempor.
+                Bytes Master is here to help you expand your business online through the latest and most effective website technologies,
+                With a little bit of creative marketing, your website will become an indispensable asset for business growth and conversions.
               </p>
             </div>
             <div className="banner-buttons">

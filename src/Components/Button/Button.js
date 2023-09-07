@@ -35,6 +35,8 @@ function Button({ children, secondary, primary, ...rest }) {
     ButtonRipple.init();
   }, [])
 
+
+
   const classes = classNames(
     'rippleButton',
     {
@@ -43,7 +45,7 @@ function Button({ children, secondary, primary, ...rest }) {
     }, rest.className
   )
   return (
-    <button {...rest} className={classes}>{children}</button>
+    <button {...rest} className={classes} type="submit">{children}</button>
   )
 }
 

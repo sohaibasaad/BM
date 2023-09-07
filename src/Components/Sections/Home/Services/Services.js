@@ -83,10 +83,9 @@ function Services() {
 
         <div className="services-inner-wrap">
           <div className="services-head text-center">
-            <h2>Our services</h2>
+            <h2>Why do clients Accross the world choose us?</h2>
             <p>
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit anim id est laborum.
+              We provide a comprehensive range of services to help your brand reach its full potential. All of the services provided here are specifically tailored to elevate your business.
             </p>
           </div>
         </div>

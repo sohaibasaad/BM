@@ -1,0 +1,131 @@
+.review_section {
+    padding: 90px 0;
+    background-color: var(--bgSections);
+}
+
+.review_section .main_heading{
+    color: var(--mainHeading);
+    font-size: var(--textMainHeadingFontSize);
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.review_section .main_para{
+    color: var(--paraColor);
+    padding: 10px 0;
+    font-weight: 500;
+}
+.review_secion_box {
+    background-color: #fff;
+    padding: 30px 30px;
+    border-radius: 15px;
+    margin: 15px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.5s all ease;
+}
+
+.review_secion_box:hover {
+    background-color: var(--primaryColor);
+}
+
+.review_secion_box:hover h6 {
+    color: #fff;
+}
+
+.review_secion_box:hover p {
+    color: #fff;
+}
+
+.review_secion_box:hover .review_info span {
+    background-color: #fff;
+    color: var(--primaryColor);
+}
+
+.review_secion_box h6 {
+    color: var(--blackFontColor);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.review_secion_box p {
+    color: var(--fontColor);
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    line-height: 1.8;
+}
+
+.rating_ul {
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgb(0 0 0 / 10%);
+}
+
+.rating_ul li i {
+    color: var(--secondaryColor);
+    font-size: 15px;
+}
+
+.review_info {
+    display: flex;
+    align-items: center;
+}
+
+.review_info span {
+    background-color: #7E919F;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.review_info_content h6 {
+    color: var(--paraColor);
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.review_info_content p {
+    color: var(--paraColor);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.slick-dots li button {
+    background: #3b6f4f;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    opacity: 0.5;
+    margin-top: 15px;
+}
+
+.slick-dots li.slick-active button {
+    opacity: 1;
+}
+
+.slick-dots li button:before {
+    display: none;
+}
+@media (max-width: 1024px) {
+    .review_secion_box {
+        align-items: center;
+    }
+    .review_secion_box p{
+        text-align: center;
+    }
+}

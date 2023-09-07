@@ -1,53 +1,79 @@
-.service-page-section2{
+.service-page-section2 {
     padding: 90px 0;
     background-color: var(--bgSections);
 }
-.servicesArrow2{
+
+.servicesArrow2 {
     position: absolute;
     left: 0;
     right: 0;
     margin: 60px auto 0;
     width: 15%;
 }
-.services_boxes{
+
+.services_boxes {
     display: flex;
     align-items: flex-start;
 }
+
 .services_boxes {
     background-color: #fff;
     padding: 35px;
     border-radius: 30px;
+    width: 95%;
+    height: 210px;
+    cursor: pointer;
+    transition: 0.5s all ease;
 }
-.services_boxes .services_box_width1 span{
+
+.services_boxes:hover {
+    background-color: var(--primaryColor);
+}
+
+.services_boxes:hover .services_box_width1 span,
+.services_boxes:hover .services_box_width2 h2,
+.services_boxes:hover .services_box_width2 p {
+    color: #fff;
+}
+
+.services_boxes .services_box_width1 span {
     color: var(--primaryColor);
     font-size: var(--textMainHeadingFontSize);
     font-weight: bold;
     text-transform: capitalize;
     line-height: 1;
 }
-.services_boxes .services_box_width2 h2{
+
+.services_boxes .services_box_width2 h2 {
     color: var(--mainHeading);
     font-size: var(--textCardheading);
     font-weight: bold;
     text-transform: capitalize;
 }
-.services_boxes .services_box_width2{
+
+.services_boxes .services_box_width2 {
     margin-left: 25px;
 }
-.services_boxes .services_box_width2 p{
+
+.services_boxes .services_box_width2 p {
     color: var(--paraColor);
     padding: 10px 0;
     font-weight: 500;
 }
+
 @media (max-width: 1024px) {
     .services_boxes {
         display: block;
         text-align: center;
+        width: 100%;
+        height: 100%;
     }
-    .service-page-section2{
+
+    .service-page-section2 {
         padding: 70px 0;
     }
-    .servicesArrow2{
+
+    .servicesArrow2 {
         display: none;
     }
 }

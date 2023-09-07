@@ -11,10 +11,9 @@ function Security() {
                     <div className='row align-items-center'>
                         <div className='col-12 col-lg-6 security_content_main'>
                             <div class="security_content">
-                                <h2>Ensure max security of your digital assets forever</h2>
-                                <p className='mt-3'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution</p>
-                                <p className='mt-3 mb-4'>
-                                    letters, as opposed to using 'Content here, content here', making it look like readable English by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution</p>
+                                <h2>Gain a competitive advantage with our digital agency</h2>
+                                <p className='mt-3'>We are a leading force in the world of website design and web development, specializing in the art of crafting transformative digital experiences that empower brands and ignite business growth. Our expert team is driven by a passion for innovation, consistently delivering visually stunning websites and applications that not only captivate visitors but also drive meaningful conversions and elevate critical performance metrics. Whether you're embarking on a digital journey from scratch or looking to revitalize your online presence, we possess the expertise to turn your vision into a vibrant reality.</p>
+                                <p className='mt-3 mb-4'>At our core, we are storytellers in the digital realm, weaving compelling narratives that resonate with your audience. We understand that a well-designed website isn't just about aesthetics; it's about creating an immersive journey that leaves a lasting impression. With a commitment to excellence and a knack for staying ahead of industry trends, we're your trusted partner on the path to online success, transforming your ideas into digital brilliance</p>
                                 <Button secondary>Get Started</Button>
                             </div>
                             <div className='security_image_arrow'>

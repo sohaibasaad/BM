@@ -12,39 +12,39 @@ function Card() {
   const elements = [
     {
       image: Service1,
-      heading: "Paid search google ads",
+      heading: "Unique Logo Designs",
       para:
-        "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui.",
+        "We have the top designers and illustrators in the market to design creative logos for your brand for individual and business purpose. Our logos will guarantee Brand Recognition, Identity & Loyalty",
     },
     {
       image: Service2,
-      heading: "Social Media",
+      heading: "Website Design & Development",
       para:
-        "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui.",
+        "Bytes Master works with a team of enthusiastic designers and developers who are dedicated professionals in delivering the best websites for any business Interactive, Mobile Friendly, Optimized & Responsive",
     },
     {
       image: Service3,
-      heading: "SEO",
+      heading: "Result Driven SEO",
       para:
-        "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui.",
+        "Bytes Master incorporate SEO service in website design, content marketing, blogs, social media posts and marketing collaterals to make your entire online campaign Efficient, Optimized, Measurable & Tailored",
     },
     {
       image: Service4,
-      heading: "Web designing & development",
+      heading: "Animation Expert",
       para:
-        "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui.",
+        "Bytes Master is equipped with the right brains and technology to design and create engaging animations to bring any content to life. Animations we sell are High Resolution, Engaging, Interactive & 3D graphics.",
     },
     {
       image: Service5,
-      heading: "Video advertising",
+      heading: "App Development",
       para:
-        "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui.",
+        "Bytes Master empowers developers into developing creative and innovative mobile application solutions for clients' needs with High Speed, Simplicity, Accessible & Interactive",
     },
     {
       image: Service6,
-      heading: "Programmatic display & remarketing ",
+      heading: "Social Media Marketing",
       para:
-        "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui.",
+        "Bytes Master digital services are tailored to increase and manage client’s digital growth.We explore and utilize multiple platforms that yields outstanding result for personal and business purpose.",
     },
   ];
 

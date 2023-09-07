@@ -4,6 +4,7 @@ import contactBg from '../../../assets/images/contact-bg.png'
 import contactArrow from '../../../assets/images/contact-arrow.png'
 
 function ContactUs() {
+
     return (
         <div className='contact-us-section'>
             <div className='container'>
@@ -16,7 +17,7 @@ function ContactUs() {
                                         <circle cx="7.56436" cy="4.10256" r="3.35256" stroke="#969696" stroke-width="1.5" />
                                         <path d="M14.158 16H1.02977C1.02977 16 0.209256 9.84619 7.18362 9.84619C14.158 9.84619 14.158 16 14.158 16Z" stroke="#969696" stroke-width="1.5" />
                                     </svg>
-                                    <input className='form-control' placeholder='Name' />
+                                    <input className='form-control' name='quote[Name]' placeholder='Name' required/>
                                 </div>
                                 <div className='custom_input_field'>
                                     <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -24,7 +25,7 @@ function ContactUs() {
                                         <path d="M1.09973 14.8574L7.69973 8.00021M7.69973 8.00021C7.69973 8.00021 10.4497 10.8574 10.9997 10.8574C11.5497 10.8574 14.2997 8.00021 14.2997 8.00021M7.69973 8.00021L1.09973 1.14307M14.2997 8.00021L20.8997 14.8574M14.2997 8.00021L20.8997 1.14307" stroke="#969696" stroke-width="1.2" />
                                     </svg>
 
-                                    <input className='form-control' placeholder='Email' />
+                                    <input className='form-control' name='quote[Email]' placeholder='Email' required/>
                                 </div>
                                 <div className='custom_input_field'>
                                     <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -38,7 +39,7 @@ function ContactUs() {
                                         </defs>
                                     </svg>
 
-                                    <input className='form-control' placeholder='Subject' />
+                                    <input className='form-control' name='quote[Subject]' placeholder='Subject' />
                                 </div>
                                 <div className='custom_input_field custom_input_field_textarea'>
                                     <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -48,7 +49,7 @@ function ContactUs() {
                                         <rect x="4.5" y="7.3877" width="11" height="1" fill="#969696" />
                                         <rect x="4.5" y="9.8877" width="11" height="1" fill="#969696" />
                                     </svg>
-                                    <textarea className='form-control' placeholder='Message'></textarea>
+                                    <textarea className='form-control' name='quote[Message]' placeholder='Message' required></textarea>
                                 </div>
                                 <div className='col-12 contact-button'>
                                     <Button secondary>Send Now!</Button>
@@ -60,7 +61,7 @@ function ContactUs() {
                     <div className='col-12 col-lg-5 mt-lg-5 mt-0 mb-5 mb-lg-0 ps-lg-5 rearrange-order-1'>
                         <div class="conact_content">
                             <h2>Let’s talk now</h2>
-                            <p className='mt-3'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution.</p>
+                            <p className='mt-3'>We can assist you with everything – whether you need a brand-new website design or want to redesign your existing one to make it more user-friendly. Complete the form below to reinvent the website for your company</p>
                             <img src={contactArrow} className='img-fluid' />
                         </div>
                     </div>

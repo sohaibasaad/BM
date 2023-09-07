@@ -1,57 +1,129 @@
 import './ServiceSection2.css'
 import Button from '../../../Button/Button'
 import servicesArrow2 from '../../../assets/images/services-arrow-2.png'
+import Slider from "react-slick";
 
 function ServiceSection2() {
     const serviceContent = [
         {
             number: "01",
-            heading: "Project Kickoff",
-            para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.",
+            heading: "web development and design",
+            para: "As a well-known digital agency, we provide complete webs design and development services.",
         },
         {
             number: "02",
-            heading: "Project Kickoff",
-            para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.",
+            heading: "ecommerce store development",
+            para: "Bytes Master offers global clients full-cycle e-commerce development services.",
         },
         {
             number: "03",
-            heading: "Project Kickoff",
-            para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.",
+            heading: "mobile app development",
+            para: "Our mobile app development services provide cutting-edge applications for various platforms, ensuring innovation and user-friendly experiences.",
         },
+        {
+            number: "04",
+            heading: "logo design",
+            para: "At Bytes Master, we ensure to make your brand identity stand out from the crowd by hiring skilled designers.",
+        },
+        {
+            number: "05",
+            heading: "brand development",
+            para: "With our robust brand development solutions, we specialize in building a rock-solid foundation for your business.",
+        },
+        {
+            number: "06",
+            heading: "marketing collaterals",
+            para: "Our experts assist businesses in increasing brand awareness with eye-catching marketing assets.",
+        },
+        {
+            number: "07",
+            heading: "Motion raphics",
+            para: "We create influential motion graphics with a focused team and versatile narrative tools.",
+        },
+        {
+            number: "08",
+            heading: "Search Engine Optimization",
+            para: "We help businesses increase their visibility and sales by utilizing smart SEO tactics.",
+        },
+        {
+            number: "09",
+            heading: "Social Media Marketing",
+            para: "To reach your objectives, we generate and disseminate compelling content on social media networks.",
+        }
     ];
+
+    const servicesSlider = {
+        dots: false,
+        arrows: false,
+        infinite: true,
+        speed: 500,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+            },
+          },
+          {
+            breakpoint: 767,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+          {
+            breakpoint: 550,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          }
+        ],
+      };
     return (
         <div className='service-page-section2'>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-12 col-lg-6  mt-lg-5 pt-lg-5'>
-                        <div className='services_content position-relative'>
+                    <div className='col-12 col-lg-12'>
+                        <div className='services_content position-relative text-center'>
                             <h2>Shaping a vision. delivering digital products. creating world-class experiences.</h2>
-                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution.</p>
-                            <div className='mt-4'>
+                            <p>At the heart of our mission lies the commitment to transform ideas into reality. With a keen focus on innovation and a passion for excellence, we craft digital products that not only meet but exceed expectations. We believe in pushing boundaries to create immersive and unforgettable experiences that resonate with users worldwide. Join us on this journey as we continue to shape the future, one visionary digital product at a time.</p>
+                            {/* <div className='mt-4'>
                                 <Button secondary>How can we help?</Button>
                             </div>
-                            <img src={servicesArrow2} className='img-fluid servicesArrow2' />
+                            <img src={servicesArrow2} className='img-fluid servicesArrow2' /> */}
                         </div>
                     </div>
-                    <div className='col-12 col-lg-6 mt-lg-0 mt-5'>
-                        {
-                            serviceContent.map((serviceContent, index) => {
-                                const isMarginTop = index == 0 ? "0px" : "25px";
-                                return (
-                                    <div className={`services_boxes`} style={{marginTop: isMarginTop}} key={index}>
-                                        <div className='services_box_width1'>
-                                            <span>{serviceContent.number}</span>
+                    <div className='col-12 col-lg-12 mt-5'>
+                        <Slider {...servicesSlider}>
+                            {
+                                serviceContent.map((serviceContent, index) => {
+                                    return (
+                                        <div className=''>
+                                            <div className={`services_boxes`} key={index}>
+                                                <div className='services_box_width1'>
+                                                    <span>{serviceContent.number}</span>
+                                                </div>
+                                                <div className='services_box_width2'>
+                                                    <h2>{serviceContent.heading}</h2>
+                                                    <p>{serviceContent.para}</p>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div className='services_box_width2'>
-                                            <h2>{serviceContent.heading}</h2>
-                                            <p>{serviceContent.para}</p>
-                                        </div>
-                                    </div>
-                                )
-                            })
 
-                        }
+                                    )
+                                })
+
+                            }
+                        </Slider>
+                        <div className='mt-4 text-center'>
+                            <Button secondary>How can we help?</Button>
+                        </div>
 
                     </div>
                 </div>
