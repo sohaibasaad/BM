@@ -50,10 +50,11 @@
 }
 .contact-bg-image{
     position: absolute;
-    left: -120px;
+    left: -135px;
     right: 0px;
-    width: 150%;
+    width: 157%;
     bottom: -90px;
+    z-index: -2;
 }
 .conact_content{
     position: relative;

@@ -1,6 +1,7 @@
 import './Footer.css'
 import { NavLink } from "react-router-dom";
 import footerLogo from '../../assets/images/logo.png'
+import CustomModal from '../../CustomModal/CustomModal';
 
 function Footer() {
     return (
@@ -121,6 +122,7 @@ function Footer() {
             <div className='copyright_text text-center'>
                 <p>Copyright © 2023 Bytes Master. All Rights Reserved.</p>
             </div>
+            <CustomModal/>
         </div>
     )
 }

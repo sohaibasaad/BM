@@ -5,19 +5,48 @@ import contactArrow from '../../../assets/images/contact-arrow.png'
 
 function ContactUs() {
 
+    const handleSubmit = () => {
+        debugger
+        let rawFormData = document.querySelector(".contact-us")
+
+        var obj = rawFormData;
+        var formData = new FormData(obj);
+
+        fetch(window.location.href.substring(0, window.location.href.lastIndexOf("/") + 1) + "sendmail.php", {
+            method: "POST",
+            body: formData,
+        })
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (response) {
+                if (response.status === 1) {
+                    document.querySelector("#thankyouModal").style.display = "block";
+                    obj.reset();
+                } else {
+                    return false;
+                }
+            })
+            .catch(function (error) {
+                console.error("Error:", error);
+            });
+
+        return false;
+    }
+
     return (
         <div className='contact-us-section'>
             <div className='container'>
                 <div className='row justify-content-around'>
                     <div className='col-12 col-lg-5 rearrange-order-2'>
                         <div className='home-form'>
-                            <form className='contact-us'>
+                            <form className='contact-us' onSubmit={handleSubmit}>
                                 <div className='custom_input_field'>
                                     <svg width="15" height="17" viewBox="0 0 15 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <circle cx="7.56436" cy="4.10256" r="3.35256" stroke="#969696" stroke-width="1.5" />
                                         <path d="M14.158 16H1.02977C1.02977 16 0.209256 9.84619 7.18362 9.84619C14.158 9.84619 14.158 16 14.158 16Z" stroke="#969696" stroke-width="1.5" />
                                     </svg>
-                                    <input className='form-control' name='quote[Name]' placeholder='Name' required/>
+                                    <input className='form-control' name='quote[Name]' placeholder='Name' required />
                                 </div>
                                 <div className='custom_input_field'>
                                     <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -25,7 +54,7 @@ function ContactUs() {
                                         <path d="M1.09973 14.8574L7.69973 8.00021M7.69973 8.00021C7.69973 8.00021 10.4497 10.8574 10.9997 10.8574C11.5497 10.8574 14.2997 8.00021 14.2997 8.00021M7.69973 8.00021L1.09973 1.14307M14.2997 8.00021L20.8997 14.8574M14.2997 8.00021L20.8997 1.14307" stroke="#969696" stroke-width="1.2" />
                                     </svg>
 
-                                    <input className='form-control' name='quote[Email]' placeholder='Email' required/>
+                                    <input className='form-control' name='quote[Email]' placeholder='Email' required />
                                 </div>
                                 <div className='custom_input_field'>
                                     <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">

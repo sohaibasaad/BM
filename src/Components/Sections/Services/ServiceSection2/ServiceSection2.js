@@ -1,6 +1,6 @@
 import './ServiceSection2.css'
 import Button from '../../../Button/Button'
-import servicesArrow2 from '../../../assets/images/services-arrow-2.png'
+// import servicesArrow2 from '../../../assets/images/services-arrow-2.png'
 import Slider from "react-slick";
 
 function ServiceSection2() {

@@ -9,8 +9,8 @@ function ServiceSection1() {
         <div className='container'>
             <div className='row align-items-center'>
                 <div className='col-12 col-lg-6 position-relative '>
-                    <img src={servicesImage} className='img-fluid' />
-                    <img src={servicesArrow} className='img-fluid serviceArrow' />
+                    <img src={servicesImage} className='img-fluid' alt='services' />
+                    <img src={servicesArrow} className='img-fluid serviceArrow' alt='services'/>
                 </div>
                 <div className='col-12 col-lg-6 mt-lg-0 mt-5 ps-lg-4'>
                     <div className='services_content'>
